@@ -25,12 +25,8 @@ install() {
 
 function print_logo() {
  echo -e "\033[38;5;600m"
- echo -e "        ____ _____ _   _ _____ ____   ___  ____ ____  
-                 / __ \_   _| | | |___ /| __ ) / _ \/ ___/ ___| 
-                / / _  || | | |_| | |_ \|  _ \| | | \___ \___ \ 
-               | | (_| || | |  _  |___) | |_) | |_| |___) |__) |
-                \ \__,_||_| |_| |_|____/|____/ \___/|____/____/ 
-                 \____/"
+ echo -e "         
+                 SAFIL"
  echo -e "        "
  echo -e "        "
  echo -e "    "
@@ -40,12 +36,8 @@ function print_logo() {
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="   ____ _____ _   _ _____ ____   ___  ____ ____  
-                 / __ \_   _| | | |___ /| __ ) / _ \/ ___/ ___| 
-                / / _  || | | |_| | |_ \|  _ \| | | \___ \___ \ 
-               | | (_| || | |  _  |___) | |_) | |_| |___) |__) |
-                \ \__,_||_| |_| |_|____/|____/ \___/|____/____/ 
-                 \____/"
+    txtlogo[1]="  
+                 SAFIL"
     txtlogo[2]=""
     txtlogo[3]=""
     txtlogo[4]=""
@@ -77,7 +69,7 @@ if [ ! -f ./tg/tgcli ]; then
    echo -e "     »»                       We Are Not Alliance                             "
    echo -e "     »»                       We Are Family                                   "
    echo -e "     »»                       We Are The Best 😻                             "
-   echo -e "     »»                       @llDEV1ll                                     "
+   echo -e "     »»                       @SAFIL_DEV                                     "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
